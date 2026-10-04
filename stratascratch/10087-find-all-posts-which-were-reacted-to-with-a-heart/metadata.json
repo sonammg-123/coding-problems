@@ -1,0 +1,39 @@
+{
+  "platform": "stratascratch",
+  "problemNumber": "10087",
+  "title": "Find all posts which were reacted to with a heart",
+  "slug": "find-all-posts-which-were-reacted-to-with-a-heart",
+  "url": "https://platform.stratascratch.com/coding/10087-find-all-posts-which-were-reacted-to-with-a-heart",
+  "difficulty": null,
+  "premium": null,
+  "company": null,
+  "category": "SQL",
+  "topics": [],
+  "tables": [],
+  "examples": [],
+  "constraints": [],
+  "followUp": null,
+  "hints": [],
+  "sampleTestCase": null,
+  "expectedOutput": {
+    "columns": [
+      "post_id",
+      "poster",
+      "post_text",
+      "post_keywords",
+      "post_date"
+    ],
+    "data": [
+      [
+        "1",
+        "1",
+        "Lebron James is top class.",
+        "[basketball,lebron_james,nba]",
+        "2019-01-02"
+      ]
+    ]
+  },
+  "languages": [
+    "MySQL"
+  ]
+}
