@@ -1,0 +1,45 @@
+{
+  "platform": "stratascratch",
+  "problemNumber": "10597",
+  "title": "Thumbs-Up Rate by Model Version",
+  "slug": "thumbs-up-rate-by-model-version",
+  "url": "https://platform.stratascratch.com/coding/10597-thumbs-up-rate-by-model-version",
+  "difficulty": null,
+  "premium": null,
+  "company": null,
+  "category": "SQL",
+  "topics": [],
+  "tables": [],
+  "examples": [],
+  "constraints": [],
+  "followUp": null,
+  "hints": [],
+  "sampleTestCase": null,
+  "expectedOutput": {
+    "columns": [
+      "model_version",
+      "thumbs_up_pct"
+    ],
+    "data": [
+      [
+        "gpt-4o",
+        "75"
+      ],
+      [
+        "gpt-4o-mini",
+        "40"
+      ],
+      [
+        "gpt-4",
+        "100"
+      ],
+      [
+        "o1",
+        "0"
+      ]
+    ]
+  },
+  "languages": [
+    "MySQL"
+  ]
+}
