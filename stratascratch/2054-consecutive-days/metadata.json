@@ -1,0 +1,31 @@
+{
+  "platform": "stratascratch",
+  "problemNumber": "2054",
+  "title": "Consecutive Days",
+  "slug": "consecutive-days",
+  "url": "https://platform.stratascratch.com/coding/2054-consecutive-days",
+  "difficulty": null,
+  "premium": null,
+  "company": null,
+  "category": "SQL",
+  "topics": [],
+  "tables": [],
+  "examples": [],
+  "constraints": [],
+  "followUp": null,
+  "hints": [],
+  "sampleTestCase": null,
+  "expectedOutput": {
+    "columns": [
+      "user_id"
+    ],
+    "data": [
+      [
+        "U4"
+      ]
+    ]
+  },
+  "languages": [
+    "MySQL"
+  ]
+}
