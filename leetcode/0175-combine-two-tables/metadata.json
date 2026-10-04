@@ -1,0 +1,31 @@
+{
+  "platform": "leetcode",
+  "problemNumber": "175",
+  "title": "Combine Two Tables",
+  "slug": "combine-two-tables",
+  "url": "https://leetcode.com/problems/combine-two-tables/",
+  "difficulty": "Easy",
+  "premium": false,
+  "company": null,
+  "category": "SQL",
+  "topics": [
+    "Database"
+  ],
+  "tables": [],
+  "examples": [
+    {
+      "exampleNumber": 1,
+      "input": "Person table:\n+----------+----------+-----------+\n| personId | lastName | firstName |\n+----------+----------+-----------+\n| 1        | Wang     | Allen     |\n| 2        | Alice    | Bob       |\n+----------+----------+-----------+\nAddress table:\n+-----------+----------+---------------+------------+\n| addressId | personId | city          | state      |\n+-----------+----------+---------------+------------+\n| 1         | 2        | New York City | New York   |\n| 2         | 3        | Leetcode      | California |\n+-----------+----------+---------------+------------+",
+      "output": "+-----------+----------+---------------+----------+\n| firstName | lastName | city          | state    |\n+-----------+----------+---------------+----------+\n| Allen     | Wang     | Null          | Null     |\n| Bob       | Alice    | New York City | New York |\n+-----------+----------+---------------+----------+",
+      "explanation": "There is no address in the address table for the personId = 1 so we return null in their city and state.\naddressId = 1 contains information about the address of personId = 2."
+    }
+  ],
+  "constraints": [],
+  "followUp": null,
+  "hints": [],
+  "sampleTestCase": "{\"headers\":{\"Person\":[\"personId\",\"lastName\",\"firstName\"],\"Address\":[\"addressId\",\"personId\",\"city\",\"state\"]},\"rows\":{\"Person\":[[1,\"Wang\",\"Allen\"],[2,\"Alice\",\"Bob\"]],\"Address\":[[1,2,\"New York City\",\"New York\"],[2,3,\"Leetcode\",\"California\"]]}}",
+  "expectedOutput": null,
+  "languages": [
+    "MySQL"
+  ]
+}
