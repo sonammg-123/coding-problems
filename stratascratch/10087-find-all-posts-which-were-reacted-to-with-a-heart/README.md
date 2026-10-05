@@ -17,7 +17,7 @@ Last Updated: October 2026
 
 ID 10087
 
-612
+613
 
 Find all posts which were reacted to with a heart. For such posts output all columns from facebook\_posts table.
 
