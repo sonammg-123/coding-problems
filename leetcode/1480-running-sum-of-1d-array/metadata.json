@@ -1,0 +1,49 @@
+{
+  "platform": "leetcode",
+  "problemNumber": "1480",
+  "title": "Running Sum of 1d Array",
+  "slug": "running-sum-of-1d-array",
+  "url": "https://leetcode.com/problems/running-sum-of-1d-array/",
+  "difficulty": "Easy",
+  "premium": false,
+  "company": null,
+  "category": null,
+  "topics": [
+    "Array",
+    "Prefix Sum"
+  ],
+  "tables": [],
+  "examples": [
+    {
+      "exampleNumber": 1,
+      "input": "nums = [1,2,3,4]",
+      "output": "[1,3,6,10]",
+      "explanation": "Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4]."
+    },
+    {
+      "exampleNumber": 2,
+      "input": "nums = [1,1,1,1,1]",
+      "output": "[1,2,3,4,5]",
+      "explanation": "Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1]."
+    },
+    {
+      "exampleNumber": 3,
+      "input": "nums = [3,1,2,10,1]",
+      "output": "[3,4,6,16,17]",
+      "explanation": null
+    }
+  ],
+  "constraints": [
+    "1 <= nums.length <= 1000",
+    "-10^6 <= nums[i] <= 10^6"
+  ],
+  "followUp": null,
+  "hints": [
+    "Think about how we can calculate the i-th number in the running sum from the (i-1)-th number."
+  ],
+  "sampleTestCase": "[1,2,3,4]",
+  "expectedOutput": null,
+  "languages": [
+    "Java"
+  ]
+}
