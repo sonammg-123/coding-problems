@@ -1,0 +1,47 @@
+{
+  "platform": "leetcode",
+  "problemNumber": "1252",
+  "title": "Cells with Odd Values in a Matrix",
+  "slug": "cells-with-odd-values-in-a-matrix",
+  "url": "https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/",
+  "difficulty": "Easy",
+  "premium": false,
+  "company": null,
+  "category": null,
+  "topics": [
+    "Array",
+    "Math",
+    "Simulation"
+  ],
+  "tables": [],
+  "examples": [
+    {
+      "exampleNumber": 1,
+      "input": "m = 2, n = 3, indices = [[0,1],[1,1]]",
+      "output": "6",
+      "explanation": "Initial matrix = [[0,0,0],[0,0,0]].\nAfter applying first increment it becomes [[1,2,1],[0,1,0]].\nThe final matrix is [[1,3,1],[1,3,1]], which contains 6 odd numbers."
+    },
+    {
+      "exampleNumber": 2,
+      "input": "m = 2, n = 2, indices = [[1,1],[0,0]]",
+      "output": "0",
+      "explanation": "Final matrix = [[2,2],[2,2]]. There are no odd numbers in the final matrix."
+    }
+  ],
+  "constraints": [
+    "1 <= m, n <= 50",
+    "1 <= indices.length <= 100",
+    "0 <= r_i < m",
+    "0 <= c_i < n"
+  ],
+  "followUp": "Could you solve this in O(n + m + indices.length) time with only O(n + m) extra space?",
+  "hints": [
+    "Simulation : With small constraints, it is possible to apply changes to each row and column and count odd cells after applying it.",
+    "You can accumulate the number you should add to each row and column and then you can count the number of odd cells."
+  ],
+  "sampleTestCase": "2\n3\n[[0,1],[1,1]]",
+  "expectedOutput": null,
+  "languages": [
+    "Java"
+  ]
+}
