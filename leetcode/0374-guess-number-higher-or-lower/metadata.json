@@ -1,0 +1,47 @@
+{
+  "platform": "leetcode",
+  "problemNumber": "374",
+  "title": "Guess Number Higher or Lower",
+  "slug": "guess-number-higher-or-lower",
+  "url": "https://leetcode.com/problems/guess-number-higher-or-lower/",
+  "difficulty": "Easy",
+  "premium": false,
+  "company": null,
+  "category": null,
+  "topics": [
+    "Binary Search",
+    "Interactive"
+  ],
+  "tables": [],
+  "examples": [
+    {
+      "exampleNumber": 1,
+      "input": "n = 10, pick = 6",
+      "output": "6",
+      "explanation": null
+    },
+    {
+      "exampleNumber": 2,
+      "input": "n = 1, pick = 1",
+      "output": "1",
+      "explanation": null
+    },
+    {
+      "exampleNumber": 3,
+      "input": "n = 2, pick = 1",
+      "output": "1",
+      "explanation": null
+    }
+  ],
+  "constraints": [
+    "1 <= n <= 2^31 - 1",
+    "1 <= pick <= n"
+  ],
+  "followUp": null,
+  "hints": [],
+  "sampleTestCase": "10\n6",
+  "expectedOutput": null,
+  "languages": [
+    "Java"
+  ]
+}
