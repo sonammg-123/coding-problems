@@ -1,0 +1,53 @@
+{
+  "platform": "leetcode",
+  "problemNumber": "1217",
+  "title": "Minimum Cost to Move Chips to The Same Position",
+  "slug": "minimum-cost-to-move-chips-to-the-same-position",
+  "url": "https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/",
+  "difficulty": "Easy",
+  "premium": false,
+  "company": null,
+  "category": null,
+  "topics": [
+    "Array",
+    "Math",
+    "Greedy"
+  ],
+  "tables": [],
+  "examples": [
+    {
+      "exampleNumber": 1,
+      "input": "position = [1,2,3]",
+      "output": "1",
+      "explanation": "First step: Move the chip at position 3 to position 1 with cost = 0.\nSecond step: Move the chip at position 2 to position 1 with cost = 1.\nTotal cost is 1."
+    },
+    {
+      "exampleNumber": 2,
+      "input": "position = [2,2,2,3,3]",
+      "output": "2",
+      "explanation": "We can move the two chips at position  3 to position 2. Each move has cost = 1. The total cost = 2."
+    },
+    {
+      "exampleNumber": 3,
+      "input": "position = [1,1000000000]",
+      "output": "1",
+      "explanation": null
+    }
+  ],
+  "constraints": [
+    "1 <= position.length <= 100",
+    "1 <= position[i] <= 10^9"
+  ],
+  "followUp": null,
+  "hints": [
+    "The first move keeps the parity of the element as it is.",
+    "The second move changes the parity of the element.",
+    "Since the first move is free, if all the numbers have the same parity, the answer would be zero.",
+    "Find the minimum cost to make all the numbers have the same parity."
+  ],
+  "sampleTestCase": "[1,2,3]",
+  "expectedOutput": null,
+  "languages": [
+    "Java"
+  ]
+}
