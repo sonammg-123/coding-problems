@@ -1,0 +1,43 @@
+{
+  "platform": "leetcode",
+  "problemNumber": "704",
+  "title": "Binary Search",
+  "slug": "binary-search",
+  "url": "https://leetcode.com/problems/binary-search/",
+  "difficulty": "Easy",
+  "premium": false,
+  "company": null,
+  "category": null,
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "tables": [],
+  "examples": [
+    {
+      "exampleNumber": 1,
+      "input": "nums = [-1,0,3,5,9,12], target = 9",
+      "output": "4",
+      "explanation": "9 exists in nums and its index is 4"
+    },
+    {
+      "exampleNumber": 2,
+      "input": "nums = [-1,0,3,5,9,12], target = 2",
+      "output": "-1",
+      "explanation": "2 does not exist in nums so return -1"
+    }
+  ],
+  "constraints": [
+    "1 <= nums.length <= 10^4",
+    "-10^4 < nums[i], target < 10^4",
+    "All the integers in nums are unique.",
+    "nums is sorted in ascending order."
+  ],
+  "followUp": null,
+  "hints": [],
+  "sampleTestCase": "[-1,0,3,5,9,12]\n9",
+  "expectedOutput": null,
+  "languages": [
+    "Java"
+  ]
+}
