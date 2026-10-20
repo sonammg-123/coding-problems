@@ -1,0 +1,44 @@
+{
+  "platform": "leetcode",
+  "problemNumber": "2187",
+  "title": "Minimum Time to Complete Trips",
+  "slug": "minimum-time-to-complete-trips",
+  "url": "https://leetcode.com/problems/minimum-time-to-complete-trips/",
+  "difficulty": "Medium",
+  "premium": false,
+  "company": null,
+  "category": null,
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "tables": [],
+  "examples": [
+    {
+      "exampleNumber": 1,
+      "input": "time = [1,2,3], totalTrips = 5",
+      "output": "3",
+      "explanation": "- At time t = 1, the number of trips completed by each bus are [1,0,0].\nThe total number of trips completed is 1 + 0 + 0 = 1.\n- At time t = 2, the number of trips completed by each bus are [2,1,0].\nThe total number of trips completed is 2 + 1 + 0 = 3.\n- At time t = 3, the number of trips completed by each bus are [3,1,1].\nThe total number of trips completed is 3 + 1 + 1 = 5.\nSo the minimum time needed for all buses to complete at least 5 trips is 3."
+    },
+    {
+      "exampleNumber": 2,
+      "input": "time = [2], totalTrips = 1",
+      "output": "2",
+      "explanation": "There is only one bus, and it will complete its first trip at t = 2.\nSo the minimum time needed to complete 1 trip is 2."
+    }
+  ],
+  "constraints": [
+    "1 <= time.length <= 10^5",
+    "1 <= time[i], totalTrips <= 10^7"
+  ],
+  "followUp": null,
+  "hints": [
+    "For a given amount of time, how can we count the total number of trips completed by all buses within that time?",
+    "Consider using binary search."
+  ],
+  "sampleTestCase": "[1,2,3]\n5",
+  "expectedOutput": null,
+  "languages": [
+    "Java"
+  ]
+}
