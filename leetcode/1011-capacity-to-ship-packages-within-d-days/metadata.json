@@ -1,0 +1,49 @@
+{
+  "platform": "leetcode",
+  "problemNumber": "1011",
+  "title": "Capacity To Ship Packages Within D Days",
+  "slug": "capacity-to-ship-packages-within-d-days",
+  "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+  "difficulty": "Medium",
+  "premium": false,
+  "company": null,
+  "category": null,
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "tables": [],
+  "examples": [
+    {
+      "exampleNumber": 1,
+      "input": "weights = [1,2,3,4,5,6,7,8,9,10], days = 5",
+      "output": "15",
+      "explanation": "A ship capacity of 15 is the minimum to ship all the packages in 5 days like this:\n1st day: 1, 2, 3, 4, 5\n2nd day: 6, 7\n3rd day: 8\n4th day: 9\n5th day: 10\n\nNote that the cargo must be shipped in the order given, so using a ship of capacity 14 and splitting the packages into parts like (2, 3, 4, 5), (1, 6, 7), (8), (9), (10) is not allowed."
+    },
+    {
+      "exampleNumber": 2,
+      "input": "weights = [3,2,2,4,1,4], days = 3",
+      "output": "6",
+      "explanation": "A ship capacity of 6 is the minimum to ship all the packages in 3 days like this:\n1st day: 3, 2\n2nd day: 2, 4\n3rd day: 1, 4"
+    },
+    {
+      "exampleNumber": 3,
+      "input": "weights = [1,2,3,1,1], days = 4",
+      "output": "3",
+      "explanation": "1st day: 1\n2nd day: 2\n3rd day: 3\n4th day: 1, 1"
+    }
+  ],
+  "constraints": [
+    "1 <= days <= weights.length <= 5 * 10^4",
+    "1 <= weights[i] <= 500"
+  ],
+  "followUp": null,
+  "hints": [
+    "Binary search on the answer. We need a function possible(capacity) which returns true if and only if we can do the task in D days."
+  ],
+  "sampleTestCase": "[1,2,3,4,5,6,7,8,9,10]\n5",
+  "expectedOutput": null,
+  "languages": [
+    "Java"
+  ]
+}
