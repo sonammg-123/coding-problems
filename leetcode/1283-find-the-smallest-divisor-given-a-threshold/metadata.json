@@ -1,0 +1,51 @@
+{
+  "platform": "leetcode",
+  "problemNumber": "1283",
+  "title": "Find the Smallest Divisor Given a Threshold",
+  "slug": "find-the-smallest-divisor-given-a-threshold",
+  "url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+  "difficulty": "Medium",
+  "premium": false,
+  "company": null,
+  "category": null,
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "tables": [],
+  "examples": [
+    {
+      "exampleNumber": 1,
+      "input": null,
+      "output": null,
+      "explanation": null
+    },
+    {
+      "exampleNumber": 1,
+      "input": "nums = [1,2,5,9], threshold = 6",
+      "output": "5",
+      "explanation": "We can get a sum to 17 (1+2+5+9) if the divisor is 1.\nIf the divisor is 4 we can get a sum of 7 (1+1+2+3) and if the divisor is 5 the sum will be 5 (1+1+1+2)."
+    },
+    {
+      "exampleNumber": 2,
+      "input": "nums = [44,22,33,11,1], threshold = 5",
+      "output": "44",
+      "explanation": null
+    }
+  ],
+  "constraints": [
+    "1 <= nums.length <= 5 * 10^4",
+    "1 <= nums[i] <= 10^6",
+    "nums.length <= threshold <= 10^6"
+  ],
+  "followUp": null,
+  "hints": [
+    "Examine every possible number for solution. Choose the largest of them.",
+    "Use binary search to reduce the time complexity."
+  ],
+  "sampleTestCase": "[1,2,5,9]\n6",
+  "expectedOutput": null,
+  "languages": [
+    "Java"
+  ]
+}
