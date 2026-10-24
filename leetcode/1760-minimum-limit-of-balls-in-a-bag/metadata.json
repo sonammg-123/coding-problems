@@ -1,0 +1,44 @@
+{
+  "platform": "leetcode",
+  "problemNumber": "1760",
+  "title": "Minimum Limit of Balls in a Bag",
+  "slug": "minimum-limit-of-balls-in-a-bag",
+  "url": "https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/",
+  "difficulty": "Medium",
+  "premium": false,
+  "company": null,
+  "category": null,
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "tables": [],
+  "examples": [
+    {
+      "exampleNumber": 1,
+      "input": "nums = [9], maxOperations = 2",
+      "output": "3",
+      "explanation": "- Divide the bag with 9 balls into two bags of sizes 6 and 3. [9] -> [6,3].\n- Divide the bag with 6 balls into two bags of sizes 3 and 3. [6,3] -> [3,3,3].\nThe bag with the most number of balls has 3 balls, so your penalty is 3 and you should return 3."
+    },
+    {
+      "exampleNumber": 2,
+      "input": "nums = [2,4,8,2], maxOperations = 4",
+      "output": "2",
+      "explanation": "- Divide the bag with 8 balls into two bags of sizes 4 and 4. [2,4,8,2] -> [2,4,4,4,2].\n- Divide the bag with 4 balls into two bags of sizes 2 and 2. [2,4,4,4,2] -> [2,2,2,4,4,2].\n- Divide the bag with 4 balls into two bags of sizes 2 and 2. [2,2,2,4,4,2] -> [2,2,2,2,2,4,2].\n- Divide the bag with 4 balls into two bags of sizes 2 and 2. [2,2,2,2,2,4,2] -> [2,2,2,2,2,2,2,2].\nThe bag with the most number of balls has 2 balls, so your penalty is 2, and you should return 2."
+    }
+  ],
+  "constraints": [
+    "1 <= nums.length <= 10^5",
+    "1 <= maxOperations, nums[i] <= 10^9"
+  ],
+  "followUp": null,
+  "hints": [
+    "Let's change the question if we know the maximum size of a bag what is the minimum number of bags you can make",
+    "note that as the maximum size increases the minimum number of bags decreases so we can binary search the maximum size"
+  ],
+  "sampleTestCase": "[9]\n2",
+  "expectedOutput": null,
+  "languages": [
+    "Java"
+  ]
+}
