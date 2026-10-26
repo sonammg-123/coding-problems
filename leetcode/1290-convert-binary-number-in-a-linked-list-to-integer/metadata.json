@@ -1,0 +1,45 @@
+{
+  "platform": "leetcode",
+  "problemNumber": "1290",
+  "title": "Convert Binary Number in a Linked List to Integer",
+  "slug": "convert-binary-number-in-a-linked-list-to-integer",
+  "url": "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/",
+  "difficulty": "Easy",
+  "premium": false,
+  "company": null,
+  "category": null,
+  "topics": [
+    "Linked List",
+    "Math"
+  ],
+  "tables": [],
+  "examples": [
+    {
+      "exampleNumber": 1,
+      "input": "head = [1,0,1]",
+      "output": "5",
+      "explanation": "(101) in base 2 = (5) in base 10"
+    },
+    {
+      "exampleNumber": 2,
+      "input": "head = [0]",
+      "output": "0",
+      "explanation": null
+    }
+  ],
+  "constraints": [
+    "The Linked List is not empty.",
+    "Number of nodes will not exceed 30.",
+    "Each node's value is either 0 or 1."
+  ],
+  "followUp": null,
+  "hints": [
+    "Traverse the linked list and store all values in a string or array. convert the values obtained to decimal value.",
+    "You can solve the problem in O(1) memory using bits operation. use shift left operation ( \\<\\< ) and or operation ( \\| ) to get the decimal value in one operation."
+  ],
+  "sampleTestCase": "[1,0,1]",
+  "expectedOutput": null,
+  "languages": [
+    "Java"
+  ]
+}
