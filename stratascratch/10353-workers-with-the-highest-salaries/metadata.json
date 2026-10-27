@@ -1,0 +1,34 @@
+{
+  "platform": "stratascratch",
+  "problemNumber": "10353",
+  "title": "Workers With The Highest Salaries",
+  "slug": "workers-with-the-highest-salaries",
+  "url": "https://platform.stratascratch.com/coding/10353-workers-with-the-highest-salaries",
+  "difficulty": null,
+  "premium": null,
+  "company": null,
+  "category": "SQL",
+  "topics": [],
+  "tables": [],
+  "examples": [],
+  "constraints": [],
+  "followUp": null,
+  "hints": [],
+  "sampleTestCase": null,
+  "expectedOutput": {
+    "columns": [
+      "best_paid_title"
+    ],
+    "data": [
+      [
+        "Asst. Manager"
+      ],
+      [
+        "Manager"
+      ]
+    ]
+  },
+  "languages": [
+    "MySQL"
+  ]
+}
