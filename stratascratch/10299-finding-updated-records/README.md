@@ -17,13 +17,19 @@ Last Updated: October 2026
 
 ID 10299
 
-727
+733
 
 We have a table with employees and their salaries; however, some of the records are old and contain outdated salary information. Since there is no timestamp, assume salary is non-decreasing over time. You can consider the current salary for an employee is the largest salary value among their records. If multiple records share the same maximum salary, return any one of them. Output their id, first name, last name, department ID, and current salary. Order your list by employee ID in ascending order.
 
 ##### Table
 
 ms\_employee\_salary
+
+##### This question is part of an interview loop
+
+See the full interview round by round, with questions for each stage.
+
+[Big Tech platforms · Analytics Engineer](https://platform.stratascratch.com/interview-loops/big-tech-platforms/analytics-engineer)
 
 ---
 
